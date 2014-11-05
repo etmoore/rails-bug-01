@@ -9,7 +9,7 @@
       </footer>
     </blockquote>
     <div class="created">
-      <%= quote.created_at ? "#{time_ago_in_words(quote.created_at)} ago" : "date unknown"%>
+      <%= quote.created_at ? "#{time_ago_in_words(quote.created_at)} ago" : "less than a minute ago"%>
     </div>
   </section>
 <% end %>
